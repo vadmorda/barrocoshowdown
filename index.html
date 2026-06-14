@@ -1,0 +1,108 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Barroco Showdown · 2º ESO</title>
+  <meta name="description" content="Juego tipo Jeopardy sobre Barroco europeo, Austrias menores y monarquías del siglo XVII para 2º ESO." />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="app-shell">
+    <header class="hero">
+      <div>
+        <p class="eyebrow">2º ESO · Historia moderna</p>
+        <h1>Barroco Showdown</h1>
+        <p class="subtitle">Un duelo por equipos para repasar parlamentarismo inglés, Austrias menores, absolutismo francés y Provincias Unidas.</p>
+      </div>
+      <div class="hero-card">
+        <span class="hero-number">25</span>
+        <span>preguntas graduadas</span>
+      </div>
+    </header>
+
+    <main>
+      <section id="setup-screen" class="screen setup-card">
+        <div class="section-head">
+          <h2>Configura la partida</h2>
+          <p>Elige 4 o 5 equipos, pon nombres y empieza.</p>
+        </div>
+
+        <div class="control-row">
+          <label for="team-count">Número de equipos</label>
+          <select id="team-count">
+            <option value="4" selected>4 equipos</option>
+            <option value="5">5 equipos</option>
+          </select>
+        </div>
+
+        <div id="team-inputs" class="team-inputs"></div>
+
+        <div class="setup-actions">
+          <button id="start-game" class="btn btn-primary">Empezar partida</button>
+          <button id="load-last" class="btn btn-secondary">Cargar última partida</button>
+          <button id="clear-history" class="btn btn-ghost">Borrar historial</button>
+        </div>
+
+        <div id="history-preview" class="history-preview"></div>
+      </section>
+
+      <section id="game-screen" class="screen hidden">
+        <div class="game-topbar">
+          <div>
+            <p class="eyebrow">Partida en curso</p>
+            <h2>Tablero</h2>
+          </div>
+          <div class="topbar-actions">
+            <button id="reset-board" class="btn btn-secondary">Nueva partida</button>
+            <button id="finish-game" class="btn btn-primary">Finalizar</button>
+          </div>
+        </div>
+
+        <div id="scoreboard" class="scoreboard"></div>
+
+        <div id="board" class="board" aria-label="Tablero Jeopardy"></div>
+      </section>
+
+      <section id="final-screen" class="screen hidden final-card">
+        <div class="section-head center">
+          <p class="eyebrow">Resultado final</p>
+          <h2>Ranking de equipos</h2>
+        </div>
+        <div id="final-ranking" class="final-ranking"></div>
+        <div class="setup-actions center-actions">
+          <button id="play-again" class="btn btn-primary">Jugar otra partida</button>
+          <button id="back-home" class="btn btn-secondary">Volver al inicio</button>
+        </div>
+      </section>
+    </main>
+  </div>
+
+  <dialog id="question-modal" class="modal">
+    <div class="modal-card">
+      <div class="modal-top">
+        <div>
+          <p id="modal-category" class="eyebrow"></p>
+          <h2 id="modal-points"></h2>
+        </div>
+        <button id="close-modal" class="icon-btn" aria-label="Cerrar">×</button>
+      </div>
+
+      <div id="question-text" class="question-text"></div>
+      <div id="answer-box" class="answer-box hidden"></div>
+
+      <div class="modal-actions">
+        <button id="show-answer" class="btn btn-primary">Mostrar respuesta</button>
+        <button id="no-one" class="btn btn-secondary">Nadie acierta</button>
+      </div>
+
+      <div id="award-buttons" class="award-buttons"></div>
+    </div>
+  </dialog>
+
+  <script src="script.js"></script>
+</body>
+</html>
