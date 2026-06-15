@@ -42,11 +42,11 @@ const QUESTIONS = [
   {
     category: "Comercio y Provincias Unidas",
     items: [
-      { points: 100, q: "¿Qué compañía creó Inglaterra en 1600 para comerciar con Asia?", a: "La Compañía Inglesa de las Indias Orientales." },
+      { points: 100, q: "¿Quién controlaba políticamente los Estados Generales de las Provincias Unidas?", a: "Una poderosa burguesía enriquecida por el comercio." },
       { points: 200, q: "Madrás, Bombay y Calcuta fueron factorías inglesas en…", a: "La India." },
       { points: 300, q: "¿En qué año lograron su independencia las Provincias Unidas?", a: "En 1648." },
       { points: 400, q: "¿En qué actividad basaron su riqueza las Provincias Unidas?", a: "En el comercio marítimo." },
-      { points: 500, q: "¿Quién controlaba políticamente los Estados Generales de las Provincias Unidas?", a: "Una poderosa burguesía enriquecida por el comercio." }
+      { points: 500, q: "¿Qué compañía creó Inglaterra en 1600 para comerciar con Asia?", a: "La Compañía Inglesa de las Indias Orientales." }
     ]
   }
 ];
