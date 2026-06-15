@@ -32,10 +32,10 @@ const QUESTIONS = [
   {
     category: "Francia absoluta",
     items: [
-      { points: 100, q: "¿Qué rey francés fue conocido como el Rey Sol?", a: "Luis XIV." },
-      { points: 200, q: "¿Qué tipo de monarquía representa Luis XIV?", a: "La monarquía absoluta." },
+      { points: 100, q: "¿Qué tipo de monarquía representa Luis XIV?", a: "La monarquía absoluta." },
+      { points: 200, q: "¿¿Cómo se denominaba el parlamenteo que Luis XIV dejó de convocar?", a: "Estados generales." },
       { points: 300, q: "Según el absolutismo, ¿ante quién respondía el rey?", a: "Ante Dios." },
-      { points: 400, q: "¿Qué institución dejó de convocar Luis XIV?", a: "Los Estados Generales." },
+      { points: 400, q: "¿Que Nombra una ciudad, al menos del imperio colonial francés", a: "Quebec." },
       { points: 500, q: "¿Para qué sirvió Versalles en la política de Luis XIV?", a: "Para atraer, vigilar y controlar a la nobleza, haciéndola depender de los favores del rey." }
     ]
   },
