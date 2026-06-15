@@ -2,11 +2,11 @@ const QUESTIONS = [
   {
     category: "Inglaterra contra el rey",
     items: [
-      { points: 100, q: "¿A qué dinastía pasó la Corona inglesa en 1603?", a: "A la dinastía de los Estuardo." },
-      { points: 200, q: "Jacobo I y Carlos I intentaron gobernar sin respetar suficientemente a una institución. ¿Cuál?", a: "El Parlamento." },
+      { points: 100, q: "¿Qué sistema político nació tras la Revolución Gloriosa y la Declaración de Derechos?", a: "La monarquía parlamentaria." },
+      { points: 200, q: "¿Qué ocurrió en Inglaterra en 1688?", a: "La Revolución Gloriosa." },
       { points: 300, q: "¿Qué rey inglés fue ejecutado tras la guerra civil?", a: "Carlos I." },
-      { points: 400, q: "¿Qué ocurrió en Inglaterra en 1688?", a: "La Revolución Gloriosa." },
-      { points: 500, q: "¿Qué sistema político nació tras la Revolución Gloriosa y la Declaración de Derechos?", a: "La monarquía parlamentaria." }
+      { points: 400, q: "Jacobo I y Carlos I intentaron gobernar sin respetar suficientemente a una institución. ¿Cuál?", a: "El Parlamento." },
+      { points: 500, q: "¿A qué dinastía pasó la Corona inglesa en 1603?", a: "A la dinastía de los Estuardo." }
     ]
   },
   {
