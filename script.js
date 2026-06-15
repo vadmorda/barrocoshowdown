@@ -12,11 +12,11 @@ const QUESTIONS = [
   {
     category: "Los Austrias menores",
     items: [
-      { points: 100, q: "¿Cómo se llama el grupo formado por Felipe III, Felipe IV y Carlos II?", a: "Los Austrias menores." },
+      { points: 100, q: "¿Quién fue el valido de Felipe IV?", a: "El conde-duque de Olivares." },
       { points: 200, q: "Ordena correctamente: Carlos II, Felipe IV, Felipe III.", a: "Felipe III → Felipe IV → Carlos II." },
       { points: 300, q: "¿Qué era un valido?", a: "Un hombre de confianza del rey que gobernaba en su nombre." },
       { points: 400, q: "¿Quién fue el valido de Felipe III?", a: "El duque de Lerma." },
-      { points: 500, q: "¿Quién fue el valido de Felipe IV?", a: "El conde-duque de Olivares." }
+      { points: 500, q: "¿Cómo se llama el grupo formado por Felipe III, Felipe IV y Carlos II?", a: "Los Austrias menores." }
     ]
   },
   {
