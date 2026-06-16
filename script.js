@@ -5,7 +5,7 @@ const QUESTIONS = [
       { points: 100, q: "¿Qué sistema político nació tras la Revolución Gloriosa y la Declaración de Derechos?", a: "La monarquía parlamentaria." },
       { points: 200, q: "¿Qué ocurrió en Inglaterra en 1688?", a: "La Revolución Gloriosa." },
       { points: 300, q: "¿Qué rey inglés fue ejecutado tras la guerra civil?", a: "Carlos I." },
-      { points: 400, q: "Jacobo I y Carlos I intentaron gobernar sin respetar suficientemente a una institución. ¿Cuál?", a: "El Parlamento." },
+      { points: 400, q: "¿Quién lideró al ejército del parlamento con la monarquía?", a: "Oliver Cromwell." },
       { points: 500, q: "¿A qué dinastía pasó la Corona inglesa en 1603?", a: "A la dinastía de los Estuardo." }
     ]
   },
@@ -23,9 +23,9 @@ const QUESTIONS = [
     category: "Crisis hispánica",
     items: [
       { points: 100, q: "¿Qué política inicial de Felipe III buscó acuerdos de paz?", a: "La Pax Hispánica." },
-      { points: 200, q: "¿En qué año se expulsó a los moriscos?", a: "En 1609." },
+      { points: 200, q: "¿Qué territorios se rebelaron en la crisis de 1640?", a: "Cataluña, Portugal y otros territorios de la monarquía." },
       { points: 300, q: "¿Qué pretendía la Unión de Armas de Olivares?", a: "Que todos los reinos de la monarquía contribuyeran a formar y financiar un ejército permanente." },
-      { points: 400, q: "¿Qué territorios se rebelaron en la crisis de 1640?", a: "Cataluña, Portugal y otros territorios de la monarquía." },
+      { points: 400, q: "En qué año se expulsó a los moriscos?", a: "En 1609." },
       { points: 500, q: "¿En qué año consiguió Portugal la independencia de la monarquía hispánica?", a: "En 1668." }
     ]
   },
